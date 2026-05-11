@@ -1,0 +1,142 @@
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <title> Pagina2</title>
+ <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+ <hr size="80px" color="black">
+ <h1> <marquee with bgcolor="red"> Alendomanha </marquee> </h1>
+<hr size="80px" color="yellow">
+<p>
+ <h2 class="FEIJOADA"> Comidas típicas </h2>
+ <h3> A culinária alemã é conhecida por pratos fortes, simples e muito tradicionais 
+  com bastante uso da carne, pão e batata.
+   Também tem doces famosos e bebidas típicas consumidas ao longo do ano se formos
+    fazer um cardápio temos exemplos como: </h3>
+<div class="container">
+ 
+ <div class="item">
+<p>
+  <h3 class="bolonhesa"> Sauerkraut </h3>
+</p>
+  <img src="imagens/comida1.jpg" width="200" height="200" onclick="toggleInfo(this)"> 
+  <div class="info">repolho fermentado (crucrute),bem tradicional </div>
+
+ </div>
+
+ <div class="item">
+<p>
+  <h3 class="bolonhesa"> kartoffelsalat </h3>
+</p>
+  <img src="imagens/comida2.jpg" width="200" height="200" onclick="toggleInfo(this)"> 
+  <div class="info">salada de batata, pode ser feita com maionese ou vinagre</div>
+
+ </div>
+
+ <div class="item">
+<p>
+  <h3 class="bolonhesa"> schnitzel </h3>
+</p>
+  <img src="imagens/comida3.jpg" width="200" height="200" onclick="toggleInfo(this)"> 
+  <div class="info">Carne empadanada e frita, geralmente de porco ou vitelas</div>
+
+ </div>
+
+<div class="item">
+<p>
+ <h3 class="bolonhesa"> bratwurst </h3>
+</p>
+ <img src="imagens/comida4.jpg" width="200" height="200" onclick="toggleInfo(this)" > 
+<div class="info">Salsicha grelhada tradicional alemã</div>
+
+ </div>
+
+<div class="item">
+<p>
+ <h3 class="bolonhesa"> pretzel </h3>
+</p>
+ <img src="imagens/comida5.jpg" width="200" height="200" onclick="toggleInfo(this)" > 
+<div class="info">pão em formato de nõ, com casca salgada e crocante.</div>
+
+ </div>
+
+<div class="item">
+<p>
+ <h3 class="bolonhesa"> bauernbrot </h3>
+</p>
+ <img src="imagens/comida6.jpg" width="200" height="200" onclick="toggleInfo(this)"> 
+<div class="info">pão rustico alemão, feito com centeio e trigo.</div>
+
+ </div>
+
+ <div class="item">
+<p>
+ <h3 class="bolonhesa"> apfelstrudel </h3>
+</p>
+ <img src="imagens/comida7.jpg" width="200" height="200" onclick="toggleInfo(this)"> 
+<div class="info">massa fna recheada com maçã, canela e uvas-passas.</div>
+
+ </div>
+
+ <div class="item">
+<p>
+ <h3 class="bolonhesa"> Shwarzwälder Kirschtorte </h3>
+</p>
+ <img src="imagens/comida8.jpg" width="200" height="200" onclick="toggleInfo(this)"> 
+<div class="info">torta Floresta Negra com chocolate, chantily e cereja.</div>
+
+ </div>
+
+ <div class="item">
+<p>
+ <h3 class="bolonhesa"> cerveja alemã </h3>
+</p>
+ <img src="imagens/comida9.jpg" width="200" height="200" onclick="toggleInfo(this)"> 
+<div class="info">famosa muldialmente com vários estilos regionais.</div>
+
+ </div>
+
+ <div class="item">
+<p>
+ <h3 class="bolonhesa"> Glühwein </h3>
+</p>
+ <img src="imagens/comida10.jpg" width="200" height="200" onclick="toggleInfo(this)"> 
+<div class="info">vinho quente com especiarias,comum no inverno.</div>
+
+ </div>
+
+</div>
+ 
+<p>
+ <h2 class="FEIJOADA"> Portão de brandemburgo </h2>
+ <p>
+ <img class="strogonoff" src="imagens/portao.jpg">
+ <p>
+ <h3> Sendo um dos principais símbolos da Alemanha e reflete diferentes momentos da sua história
+  <p>Foi costruido entre 1788 e 1791 no topa está a quadriga: escultura com quatro cavalos</p>
+  <p>Em 1806, Napoleão Bonaparte invadiu Berlim e levou a quadrigia para Paris. E 1814 foi devolvida sendo uma vítoria.</p> </h3>
+
+  <h2 class="FEIJOADA"> Monumentos </h2>
+ <h3> Acontecimentos historicos </h3>
+
+<p>
+
+<script>
+function toggleInfo(img) {
+  let info = img.nextElementSibling;
+
+  if (info.style.display === "block") {
+    info.style.display = "none";
+  } else {
+    info.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
